@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>For Abdur Rafay ♡</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #ffe6ef;
+            color: #5a3544;
+        }
+
+        .page {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background: rgba(255,255,255,0.92);
+            width: 90%;
+            max-width: 650px;
+            padding: 45px 30px;
+            text-align: center;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(150,70,100,0.15);
+            position: relative;
+            z-index: 5;
+        }
+
+        h1 {
+            font-size: 45px;
+            color: #d95c83;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #d95c83;
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .small {
+            font-size: 14px;
+            color: #a77b89;
+        }
+
+        button {
+            background: #e9789d;
+            color: white;
+            border: none;
+            padding: 15px 28px;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            box-shadow: 0 5px 12px rgba(200,80,120,0.25);
+        }
+
+        button:hover {
+            background: #d95c83;
+            transform: scale(1.05);
+        }
+
+        .screen {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        /* Cute stickers */
+
+        .sticker {
+            position: absolute;
+            font-size: 65px;
+            z-index: 2;
+            animation: float 3s infinite ease-in-out;
+        }
+
+        .sticker1 {
+            top: 8%;
+            left: 7%;
+        }
+
+        .sticker2 {
+            top: 15%;
+            right: 7%;
+            font-size: 75px;
+        }
+
+        .sticker3 {
+            bottom: 10%;
+            left: 8%;
+        }
+
+        .sticker4 {
+            bottom: 12%;
+            right: 8%;
+            font-size: 70px;
+        }
+
+        .sticker5 {
+            top: 45%;
+            left: 2%;
+            font-size: 45px;
+        }
+
+        .sticker6 {
+            top: 42%;
+            right: 2%;
+            font-size: 45px;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px) rotate(-5deg);
+            }
+
+            50% {
+                transform: translateY(-12px) rotate(5deg);
+            }
+
+            100% {
+                transform: translateY(0px) rotate(-5deg);
+            }
+        }
+
+        /* Big sticker */
+
+        .big-sticker {
+            font-size: 100px;
+            margin: 10px;
+        }
+
+        .cute-text {
+            background: #fff0f5;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            color: #c95178;
+            font-size: 14px;
+            transform: rotate(-2deg);
+        }
+
+        /* Love cards */
+
+        .love-card {
+            background: #fff4f7;
+            margin: 15px 0;
+            padding: 18px;
+            border-radius: 20px;
+            text-align: left;
+            border: 1px solid #ffd4e1;
+        }
+
+        .love-card b {
+            color: #d95c83;
+        }
+
+        /* Memory */
+
+        .memory {
+            background: #fff0f5;
+            padding: 25px;
+            border-radius: 25px;
+            margin-top: 20px;
+        }
+
+        .heart {
+            color: #e9789d;
+            font-size: 25px;
+        }
+
+        /* Final page */
+
+        .final-message {
+            background: #fff0f5;
+            padding: 25px;
+            border-radius: 25px;
+            line-height: 1.9;
+        }
+
+        /* Mobile */
+
+        @media screen and (max-width: 600px) {
+
+            h1 {
+                font-size: 34px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .sticker {
+                font-size: 45px;
+            }
+
+            .box {
+                padding: 35px 20px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- ================= STICKERS ================= -->
+
+<div class="sticker sticker1">🎀</div>
+<div class="sticker sticker2">🧸</div>
+<div class="sticker sticker3">🌷</div>
+<div class="sticker sticker4">💌</div>
+<div class="sticker sticker5">♡</div>
+<div class="sticker sticker6">✦</div>
+
+
+
+<!-- ================= PAGE 1 ================= -->
+
+<div class="page">
+
+    <div class="box screen active" id="screen1">
+
+        <div class="big-sticker">🎀</div>
+
+        <div class="cute-text">a tiny surprise for you</div>
+
+        <h1>Hey Abdur Rafay ♡</h1>
+
+        <p>
+            Hi my Baby Shark 🦈
+        </p>
+
+        <p>
+            I made something for you...
+            but you have to be a little curious first. 🎀
+        </p>
+
+        <p class="small">
+            Psst... don't click away yet 👀
+        </p>
+
+        <button onclick="nextPage(2)">
+            Wanna see what's next? ♡
+        </button>
+
+    </div>
+
+
+
+<!-- ================= PAGE 2 ================= -->
+
+    <div class="box screen" id="screen2">
+
+        <div class="big-sticker">🦈💗</div>
+
+        <div class="cute-text">okay okay...</div>
+
+        <h2>You're actually still here? 🥹</h2>
+
+        <p>
+            Good. Because I have a few things
+            I've been wanting to say.
+        </p>
+
+        <p>
+            But first...
+        </p>
+
+        <p>
+            <b>Do you know what happened on 23rd September?</b>
+        </p>
+
+        <button onclick="nextPage(3)">
+            Tell me 👀
+        </button>
+
+    </div>
+
+
+
+<!-- ================= PAGE 3 ================= -->
+
+    <div class="box screen" id="screen3">
+
+        <div class="big-sticker">🌷✨</div>
+
+        <div class="cute-text">23 • 09 • us ♡</div>
+
+        <h2>One whole year. 🥹💗</h2>
+
+        <p>
+            23rd September marked one year of us.
+        </p>
+
+        <p>
+            And honestly...
+            that's something really special to me.
+        </p>
+
+        <p>
+            One year of memories,
+            little moments,
+            laughter,
+            silly things,
+            and everything in between. ♡
+        </p>
+
+        <button onclick="nextPage(4)">
+            But what do you love about me? 👀
+        </button>
+
+    </div>
+
+
+
+<!-- ================= PAGE 4 ================= -->
+
+    <div class="box screen" id="screen4">
+
+        <div class="big-sticker">💗🧸💗</div>
+
+        <h2>Things I love about you</h2>
+
+        <p class="small">
+            warning: this list could've been much longer 🎀
+        </p>
+
+
+        <div class="love-card">
+            <b>♡ Your smile</b>
+            <br>
+            It genuinely makes my day better.
+        </div>
+
+
+        <div class="love-card">
+            <b>♡ Your eyes</b>
+            <br>
+            I could honestly look at them forever.
+        </div>
+
+
+        <div class="love-card">
+            <b>♡ Your voice</b>
+            <br>
+            There's just something about hearing you.
+        </div>
+
+
+        <div class="love-card">
+            <b>♡ Your bachon wali harkaten 🥹</b>
+            <br>
+            The silly little things you do are one of my
+            favorite parts of you.
+        </div>
+
+
+        <button onclick="nextPage(5)">
+            There's more... 🎀
+        </button>
+
+    </div>
+
+
+
+<!-- ================= PAGE 5 ================= -->
+
+    <div class="box screen" id="screen5">
+
+        <div class="big-sticker">🧸💞</div>
+
+        <h2>And then there's your care...</h2>
+
+        <div class="love-card">
+
+            <b>♡ Your hugs</b>
+
+            <p>
+                They make me feel happy and comforted.
+            </p>
+
+        </div>
+
+
+        <div class="love-card">
+
+            <b>♡ Your care</b>
+
+            <p>
+                The little ways you care about me
+                mean more than you probably realize.
+            </p>
+
+        </div>
+
+
+        <div class="love-card">
+
+            <b>♡ Your scent</b>
+
+            <p>
+                Yep... that's on the list too. 🥹
+            </p>
+
+        </div>
+
+
+        <p>
+            And honestly...
+        </p>
+
+        <p>
+            <b>
+                Meeting you every day is one of
+                the best parts of my day.
+            </b>
+        </p>
+
+
+        <button onclick="nextPage(6)">
+            Wait... there's a memory 🎀
+        </button>
+
+    </div>
+
+
+
+<!-- ================= PAGE 6 ================= -->
+
+    <div class="box screen" id="screen6">
+
+        <div class="big-sticker">☕💗</div>
+
+        <div class="cute-text">memory unlocked ✨</div>
+
+        <h2>Our first Melbrew memory</h2>
+
+        <div class="memory">
+
+            <p>
+                One of my favorite memories with you
+                is when you took me to Melbrew
+                for the first time.
+            </p>
+
+            <p>
+                It might seem like a simple memory,
+                but it's one of those little moments
+                that stayed with me. ♡
+            </p>
+
+            <p>
+                Sometimes it's not the biggest moments
+                that matter most.
+            </p>
+
+            <p>
+                It's the little ones that become
+                our favorite memories. 🌷
+            </p>
+
+        </div>
+
+
+        <button onclick="nextPage(7)">
+            Okay Baby Shark... one last thing 🦈
+        </button>
+
+    </div>
+
+
+
+<!-- ================= PAGE 7 ================= -->
+
+    <div class="box screen" id="screen7">
+
+        <div class="big-sticker">💌🎀</div>
+
+        <h2>One last little message...</h2>
+
+        <div class="final-message">
+
+            <p>
+                I love you so much. ♡
+            </p>
+
+            <p>
+                I want to keep doing better for us,
+                keep growing, keep learning,
+                and become someone who makes you proud.
+            </p>
+
+            <p>
+                I want us to have a good life together,
+                to support each other,
+                stand by each other,
+                and keep making beautiful memories.
+            </p>
+
+            <p>
+                I want to always appreciate the little
+                things about you and cherish the person
+                you are.
+            </p>
+
+            <p>
+                Thank you for being part of my life. 🌷
+            </p>
+
+            <p>
+                And yes...
+                you're still my Baby Shark. 🦈🎀
+            </p>
+
+            <p class="heart">
+                ♡ ♡ ♡
+            </p>
+
+        </div>
+
+
+        <button onclick="nextPage(8)">
+            One FINAL surprise... 👀
+        </button>
+
+    </div>
+
+
+
+<!-- ================= PAGE 8 ================= -->
+
+    <div class="box screen" id="screen8">
+
+        <div class="big-sticker">🎀🧸💗🦈</div>
+
+        <h1>For You ♡</h1>
+
+        <p>
+            If you made it all the way here...
+        </p>
+
+        <p>
+            then congratulations 🎀
+        </p>
+
+        <p>
+            You officially survived
+            my tiny emotional website. 😭
+        </p>
+
+        <div class="cute-text">made with lots of love ♡</div>
+        <div class="cute-text">for my Baby Shark 🦈</div>
+        <div class="cute-text">23 • 09 ♡</div>
+
+        <p style="margin-top:30px;">
+            <b>
+                Happy one year, Abdur Rafay. ♡
+            </b>
+        </p>
+
+        <p class="small">
+            Now go smile. That's an order. 🎀
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+    function nextPage(pageNumber) {
+
+        var screens = document.getElementsByClassName("screen");
+
+        for (var i = 0; i < screens.length; i++) {
+
+            screens[i].classList.remove("active");
+
+        }
+
+        document.getElementById("screen" + pageNumber)
+        .classList.add("active");
+
+    }
+
+</script>
+
+
+</body>
+</html>
